@@ -22,11 +22,9 @@ def show_all_news():
 
 @app.route("/news/<int:index>")
 def show_news(index):
-    requested_news = None
-    for news_post in news_objects:
-        if news_post.id == index:
-            requested_news = news_post
+    requested_news = next((post for post in news_objects if post.id == index), None)
     return render_template("post.html", post= requested_news)
+
 
 
 @app.route('/my_portfolio')
@@ -41,6 +39,11 @@ def my_article():
 @app.route('/about_me')
 def about_me():
     return render_template("about_me.html")
+
+
+
+
+
 
 
 
