@@ -16,8 +16,8 @@ def index():
     return render_template("index.html",)
 
 
-@app.route('/my_portfolio')
-def index():
+@app.route('/my_portfolio/')
+def portfolio():
     return render_template("my_portfolio.html",)
 
 # @app.route('/')
