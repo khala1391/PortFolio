@@ -16,9 +16,15 @@ def index():
     return render_template("index.html",)
 
 
-@app.route('/my_portfolio/')
-def portfolio():
+@app.route('/my_portfolio')
+def my_portfolio():
     return render_template("my_portfolio.html",)
+
+
+@app.route('/my_article')
+def my_article():
+    return render_template("my_article.html",)
+
 
 # @app.route('/')
 # def get_all_post():
