@@ -2,11 +2,11 @@ from flask import Flask, render_template
 from post import Post
 import requests
 
-# posts = requests.get("https://api.npoint.io/c790b4d5cab58020d391").json()
-# post_objects = []
-# for post in posts:
-#     post_object = Post(post['id'],post['title'],post['title'], post['body'])
-#     post_objects.append(post_object)
+news_data = requests.get("https://api.npoint.io/c790b4d5cab58020d391").json()
+news_objects = []
+for item in news_data:
+    news_object = Post(item['id'],item['title'],item['title'], item['body'])
+    news_objects.append(news_object)
 
 
 app = Flask(__name__)
@@ -17,8 +17,17 @@ def index():
 
 
 @app.route('/news')
-def news():
-    return render_template("news.html")
+def show_all_news():
+    return render_template("news.html", all_posts=news_objects)
+
+@app.route("/news/<int:index>")
+def show_news(index):
+    requested_news = None
+    for news_post in news_objects:
+        if news_post.id == index:
+            requested_news = news_post
+    return render_template("post.html", post= requested_news)
+
 
 @app.route('/my_portfolio')
 def my_portfolio():
@@ -29,18 +38,14 @@ def my_portfolio():
 def my_article():
     return render_template("my_article.html")
 
+@app.route('/about_me')
+def about_me():
+    return render_template("about_me.html")
 
-# @app.route('/')
-# def get_all_post():
-#     return render_template("index.html", all_posts=post_objects)
+@app.route('/')
+def show_all_news():
+    return render_template("index.html", all_posts=post_objects)
 
-# @app.route("/post/<int:index>")
-# def show_post(index):
-#     requested_post = None
-#     for blog_post in post_objects:
-#         if blog_post.id == index:
-#             requested_post = blog_post
-#     return render_template("post.html", post= requested_post)
 
 
 if __name__ == "__main__":
