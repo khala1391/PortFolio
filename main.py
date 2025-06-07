@@ -15,6 +15,11 @@ app = Flask(__name__)
 def index():
     return render_template("index.html",)
 
+
+@app.route('/my_portfolio')
+def index():
+    return render_template("my_portfolio.html",)
+
 # @app.route('/')
 # def get_all_post():
 #     return render_template("index.html", all_posts=post_objects)
