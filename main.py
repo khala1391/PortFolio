@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html")
+    return render_template("index.html",all_posts=news_objects)
 
 
 @app.route('/news')
@@ -41,10 +41,6 @@ def my_article():
 @app.route('/about_me')
 def about_me():
     return render_template("about_me.html")
-
-@app.route('/')
-def show_all_news():
-    return render_template("index.html", all_posts=post_objects)
 
 
 
