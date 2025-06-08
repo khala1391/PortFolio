@@ -89,6 +89,19 @@
     {
       "source": {
         "id": null,
+        "name": "Windows Central"
+      },
+      "author": "rebecca.spear@futurenet.com (Rebecca Spear) , Rebecca Spear",
+      "title": "All known AMD Ryzen Z2 Series gaming handheld chips and how they are rumored to compare",
+      "description": "The next wave of mainstream PC gaming handhelds will largely feature AMD Z2 Series processors. Here's how they compare against each other and everything you need to know about these APUs.",
+      "url": "https://www.windowscentral.com/hardware/cpu-gpu-components/amd-ryzen-z2-series-gaming-handheld-chips",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/n7V9VJYEvH6H2xXWxhZEf7.jpg",
+      "publishedAt": "2025-06-07T17:42:11Z",
+      "content": "If you've been keeping up with the Windows gaming handheld world, then you're likely very aware of the AMD Ryzen Z1 line of gaming handheld APUs (accelerated processing units). But we're now at the p… [+5279 chars]"
+    },
+    {
+      "source": {
+        "id": null,
         "name": "TechSpot"
       },
       "author": "Daniel Sims",
@@ -111,19 +124,6 @@
       "urlToImage": "https://cdn.mos.cms.futurecdn.net/kvJ9earYbVgpYtXaWXaKsH.jpg",
       "publishedAt": "2025-06-06T20:30:16Z",
       "content": "AMD this week said in a blog post that ASE Technology, the world's largest outsourced semiconductor assembly and test (OSAT) provider, has transitioned to EPYC and Ryzen processors across its data ce… [+3008 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
-      "author": "Rebecca Szkutak",
-      "title": "AMD acqui-hires the employees behind Untether AI | TechCrunch",
-      "description": "AMD acqui-hires the employees behind Untether AI | TechCrunchtechcrunch.com",
-      "url": "https://techcrunch.com/2025/06/06/amd-acqui-hires-the-employees-behind-untether-ai/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2213364357.jpg?resize=1200,800",
-      "publishedAt": "2025-06-06T15:24:04Z",
-      "content": "AMD is continuing its acquisition spree.\r\nSemiconductor giant AMD acqui-hired the team behind Untether AI, a startup that develops AI inference chips, as originally reported by CRN. Untether claims t… [+594 chars]"
     }
   ]
 }
