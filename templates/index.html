@@ -159,12 +159,12 @@
       {% set bg_image = article.urlToImage if article.urlToImage else '/static/fallback.jpg' %}
       <div class="col">
         <a href="{{ article.url }}" target="_blank" style="text-decoration: none;">
-          <div class="card card-cover h-80 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                style="background-image: url('{{ bg_image }}');
                background-size: cover;
                 background-position: center;">
 
-            <div class="d-flex flex-column h-60 p-5 pb-3 text-white text-shadow-1">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
               <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">{{ article.title }}</h3>
               <ul class="d-flex list-unstyled mt-auto">
                 <li class="me-auto">
