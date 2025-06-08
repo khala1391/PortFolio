@@ -1,6 +1,7 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, jsonify
 from post import Post
-import requests
+import requests, os
+import json
 
 news_data = requests.get("https://api.npoint.io/c790b4d5cab58020d391").json()
 news_objects = []
@@ -16,14 +17,24 @@ def index():
     return render_template("index.html",all_posts=news_objects)
 
 
-@app.route('/news')
-def show_all_news():
-    return render_template("news.html", all_posts=news_objects)
+# @app.route('/news')
+# def show_all_news():
+#     return render_template("news.html", all_posts=news_objects)
 
-@app.route("/news/<int:index>")
-def show_news(index):
-    requested_news = next((post for post in news_objects if post.id == index), None)
-    return render_template("post.html", post= requested_news)
+@app.route("/news")
+def get_news():
+    try:
+        with open("news.json", "r") as f:
+            data = json.load(f)
+        return jsonify(data)
+    except FileNotFoundError:
+        return jsonify({"error": "No news available yet."})
+
+
+# @app.route("/news/<int:index>")
+# def show_news(index):
+#     requested_news = next((post for post in news_objects if post.id == index), None)
+#     return render_template("post.html", post= requested_news)
 
 
 
