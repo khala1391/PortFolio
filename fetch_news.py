@@ -5,7 +5,7 @@ from datetime import datetime
 from collections import defaultdict
 import json
 
-NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
+NEWS_API_KEY = os.environ.get("NEWS_Hmail_API_KEY")
 COMPANIES = ["Google",
              "Microsoft",
              "Facebook",

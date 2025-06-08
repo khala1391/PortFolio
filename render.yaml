@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: your-main-app
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port 10000
+    plan: free
+
+  - type: cron
+    name: news-fetcher
+    env: python
+    schedule: "0 0 */5 * *"  # Every 5 days at midnight UTC
+    buildCommand: pip install -r requirements.txt
+    startCommand: python fetch_news.py
+    plan: free
