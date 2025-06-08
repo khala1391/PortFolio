@@ -28,10 +28,10 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href=" ">Home</a>
+            <a class="nav-link active" aria-current="page" href="{{ url_for('index') }}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">News</a>
+            <a class="nav-link active" aria-current="page" href="{{url_for('show_all_news')}}">News</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="{{ url_for('my_article') }}">My Articles</a>
@@ -159,12 +159,12 @@
       {% set bg_image = article.urlToImage if article.urlToImage else '/static/fallback.jpg' %}
       <div class="col">
         <a href="{{ article.url }}" target="_blank" style="text-decoration: none;">
-          <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          <div class="card card-cover h-80 overflow-hidden text-bg-dark rounded-4 shadow-lg"
                style="background-image: url('{{ bg_image }}');
                background-size: cover;
                 background-position: center;">
 
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+            <div class="d-flex flex-column h-60 p-5 pb-3 text-white text-shadow-1">
               <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">{{ article.title }}</h3>
               <ul class="d-flex list-unstyled mt-auto">
                 <li class="me-auto">
@@ -286,7 +286,7 @@
       aria-label="Bootstrap"> </a>
     <ul class="nav col-md-6 justify-content-end">
       <li class="nav-item"><a href="{{ url_for('index') }}" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">News</a></li>
+      <li class="nav-item"><a href="{{url_for('show_all_news')}}" class="nav-link px-2 text-body-secondary">News</a></li>
       <li class="nav-item"><a href="{{ url_for('my_article') }}" class="nav-link px-2 text-body-secondary">My Articles</a></li>
       <li class="nav-item"><a href="{{ url_for('my_portfolio') }}" class="nav-link px-2 text-body-secondary">My PortFolio</a></li>
       <li class="nav-item"><a href="{{ url_for('about_me') }}" class="nav-link px-2 text-body-secondary">About Me</a></li>
