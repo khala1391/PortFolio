@@ -9,7 +9,7 @@ services:
   - type: cron
     name: news-fetcher
     env: python
-    schedule: "0 0 */5 * *"  # Every 5 days at midnight UTC
+    schedule: "0 0 */3 * *"  # Every 3 days at midnight UTC
     buildCommand: pip install -r requirements.txt
     startCommand: python fetch_news.py
     plan: free
