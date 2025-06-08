@@ -1,0 +1,129 @@
+{
+  "Google": [
+    {
+      "source": {
+        "id": null,
+        "name": "Securityaffairs.com"
+      },
+      "author": "Pierluigi Paganini",
+      "title": "U.S. CISA adds Google Chromium V8 flaw to its Known Exploited Vulnerabilities catalog",
+      "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a Google Chromium V8 vulnerability to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Google Chromium V8 Out-of-Bounds Read a…",
+      "url": "https://securityaffairs.com/178678/security/u-s-cisa-google-chromium-v8-flaw-known-exploited-vulnerabilities-catalog.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg",
+      "publishedAt": "2025-06-05T21:03:56Z",
+      "content": "U.S. CISA adds Google Chromium V8 flaw to its Known Exploited Vulnerabilities catalog\r\n | New versions of Chaos RAT target Windows and Linux systems\r\n | Critical flaw in Cisco ISE impacts cloud deplo… [+170176 chars]"
+    }
+  ],
+  "Microsoft": [
+    {
+      "source": {
+        "id": null,
+        "name": "Thurrott.com"
+      },
+      "author": "Laurent Giret",
+      "title": "Microsoft Photos Adds New AI Features for Insiders on Copilot+ PCs",
+      "description": "Windows Insiders on Copilot+ PCs can test new AI-powered Relight and Search experiences in the Microsoft Photos app.\nThe post Microsoft Photos Adds New AI Features for Insiders on Copilot+ PCs appeared first on Thurrott.com.",
+      "url": "https://www.thurrott.com/a-i/321840/microsoft-photos-adds-new-ai-features-for-insiders-on-copilot-pcs",
+      "urlToImage": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2025/03/Microsoft-Photos-app.jpg",
+      "publishedAt": "2025-06-06T20:09:42Z",
+      "content": "Windows Insiders on Copilot+ PCs can test two new AI-powered features in the Microsoft Photos app today. The first one is called Relight, and it adds dynamic lighting controls to pictures.\r\nRelight w… [+1402 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Securityaffairs.com"
+      },
+      "author": "Pierluigi Paganini",
+      "title": "Critical flaw in Cisco ISE impacts cloud deployments on AWS, Microsoft Azure, and Oracle Cloud Infrastructure",
+      "description": "Cisco fixed a critical flaw in the Identity Services Engine (ISE) that could allow unauthenticated attackers to conduct malicious actions. A vulnerability tracked as CVE-2025-20286 (CVSS score 9.9) in cloud deployments of Cisco ISE on AWS, Microsoft Azure, an…",
+      "url": "https://securityaffairs.com/178659/uncategorized/critical-flaw-in-cisco-ise-impacts-cloud-deployments-on-aws-microsoft-azure-and-oracle-cloud-infrastructure.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2014/07/cisco-building.jpg",
+      "publishedAt": "2025-06-05T08:31:27Z",
+      "content": "Critical flaw in Cisco ISE impacts cloud deployments on AWS, Microsoft Azure, and Oracle Cloud Infrastructure\r\n | Ukraines military intelligence agency stole 4.4GB of highly classified internal data … [+170023 chars]"
+    }
+  ],
+  "Facebook": [],
+  "TSMC": [],
+  "NVIDIA": [
+    {
+      "source": {
+        "id": null,
+        "name": "TechSpot"
+      },
+      "author": "Daniel Sims",
+      "title": "Nvidia reaches historic 92% GPU market share, leaves AMD and Intel far behind",
+      "description": "According to Jon Peddie Research, total sales of dedicated desktop graphics cards reached 9.2 million units in the first quarter of 2025 – an increase of more than 8% both year-over-year and quarter-over-quarter. Although both Nvidia and AMD launched new GPU …",
+      "url": "https://www.techspot.com/news/108225-nvidia-reaches-historic-92-gpu-market-share-leaves.html",
+      "urlToImage": "https://www.techspot.com/articles-info/2947/images/2025-01-29-image-4.jpg",
+      "publishedAt": "2025-06-07T12:17:00Z",
+      "content": "The big picture: In our review of the 8GB variant of Nvidia's RTX 5060 Ti, we suggested that the GeForce 50 lineup might go down as the company's worst ever. Yet despite scarcity at more reasonable p… [+3001 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PCWorld"
+      },
+      "author": "Michael Crider",
+      "title": "Nvidia extends desktop GPU market share lead beyond 90%",
+      "description": "When it comes to desktop graphics cards, Nvidia rules the roost even while gamers complain of rising prices and lowering value. According to a research firm, Big Green has more than 90 percent of the market captured after a precipitous fall from rival AMD, as…",
+      "url": "https://www.pcworld.com/article/2806604/nvidia-extends-desktop-gpu-market-share-beyond-90-percent.html",
+      "urlToImage": "https://www.pcworld.com/wp-content/uploads/2025/06/Nvidia-GeForce-RTX-5070-2.jpg?quality=50&strip=all&w=1024",
+      "publishedAt": "2025-06-06T14:21:31Z",
+      "content": "Skip to contentType your search and hit enter\r\nWhen you purchase through links in our articles, we may earn a small commission. This doesn't affect our editorial independence\r\n.\r\nWhen it comes to des… [+3359 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wccftech"
+      },
+      "author": "Hassan Mujtaba",
+      "title": "NVIDIA Dominates AIB GPU Market With 92% Share In Q1 2025, AMD Drops To 8% & Intel To 0%",
+      "description": "NVIDIA is starting 2025 strong with a 92% market share in the AIB GPU market, whereas the competition is down to single digits. NVIDIA Leads 2025 With Massive 92% AIB GPU Market Share, AMD at 8% & Intel at 0% The latest data comes from Jon Peddie Research, wh…",
+      "url": "https://wccftech.com/nvidia-dominates-aib-gpu-market-share-in-q1-2025-amd-intel-drop/",
+      "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2025/03/Intel-AMD-NVIDIA-2025-New.jpg",
+      "publishedAt": "2025-06-05T18:30:03Z",
+      "content": "NVIDIA is starting 2025 strong with a 92% market share in the AIB GPU market, whereas the competition is down to single digits.\r\nThe latest data comes from Jon Peddie Research, where the latest Q1 20… [+3614 chars]"
+    }
+  ],
+  "AMD": [
+    {
+      "source": {
+        "id": null,
+        "name": "TechSpot"
+      },
+      "author": "Daniel Sims",
+      "title": "Nvidia reaches historic 92% GPU market share, leaves AMD and Intel far behind",
+      "description": "According to Jon Peddie Research, total sales of dedicated desktop graphics cards reached 9.2 million units in the first quarter of 2025 – an increase of more than 8% both year-over-year and quarter-over-quarter. Although both Nvidia and AMD launched new GPU …",
+      "url": "https://www.techspot.com/news/108225-nvidia-reaches-historic-92-gpu-market-share-leaves.html",
+      "urlToImage": "https://www.techspot.com/articles-info/2947/images/2025-01-29-image-4.jpg",
+      "publishedAt": "2025-06-07T12:17:00Z",
+      "content": "The big picture: In our review of the 8GB variant of Nvidia's RTX 5060 Ti, we suggested that the GeForce 50 lineup might go down as the company's worst ever. Yet despite scarcity at more reasonable p… [+3001 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Tom's Hardware UK"
+      },
+      "author": "ashilov@gmail.com (Anton Shilov) , Anton Shilov",
+      "title": "ASE adopts AMD CPUs, begins evaluating Instinct MI300-series GPUs for AI",
+      "description": "ASE has transitioned to AMD EPYC and Ryzen processors across its data centers and client systems, achieved major performance and efficiency gains, and is now evaluating AMD's Instinct MI300-series GPUs for its AI workloads.",
+      "url": "https://www.tomshardware.com/pc-components/cpus/ase-adopts-amd-cpus-begins-evaluating-instinct-mi300-series-gpus-for-ai",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/kvJ9earYbVgpYtXaWXaKsH.jpg",
+      "publishedAt": "2025-06-06T20:30:16Z",
+      "content": "AMD this week said in a blog post that ASE Technology, the world's largest outsourced semiconductor assembly and test (OSAT) provider, has transitioned to EPYC and Ryzen processors across its data ce… [+3008 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Rebecca Szkutak",
+      "title": "AMD acqui-hires the employees behind Untether AI | TechCrunch",
+      "description": "AMD acqui-hires the employees behind Untether AI | TechCrunchtechcrunch.com",
+      "url": "https://techcrunch.com/2025/06/06/amd-acqui-hires-the-employees-behind-untether-ai/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2213364357.jpg?resize=1200,800",
+      "publishedAt": "2025-06-06T15:24:04Z",
+      "content": "AMD is continuing its acquisition spree.\r\nSemiconductor giant AMD acqui-hired the team behind Untether AI, a startup that develops AI inference chips, as originally reported by CRN. Untether claims t… [+594 chars]"
+    }
+  ]
+}

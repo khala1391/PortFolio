@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,23 +67,47 @@
   </nav>
 
 
+<div class="container">
+  <div class="row">
+    <div class="col-lg-10 col-md-10 mx-auto">
+<!-- <div class="px-4 pt-5 my-5 text-center border-bottom"> -->
 
-<div class="px-4 pt-5 my-5 text-center border-bottom">
-
-    {% for post in all_posts %}
-    <div class="content">
-        <div class="card">
-            <h2> {{post.title}} </h2>
-            <p> {{post.subtitle}} </p>
-            <a href=" {{url_for('show_news', index=post.id)}} ">Read</a>
-        </div>
-
+ {% for post in all_posts %}
+<div class="row border-bottom" style="margin-top:40px;">
+  <!-- Image Column -->
+  <div class="col-md-4 position-relative">
+    <img src="{{ post.urlToImage }}" alt="{{ post.title }}" style="width: 100%; height: auto;">
+    <div style="position: absolute; bottom: 8px; right: 16px; background: rgba(0,0,0,0.6); color: white; padding: 3px 6px; font-size: 10pt; border-radius: 4px;">
+      {{ post.publishedAt }}
     </div>
-    
-    {% endfor %}
+  </div>
+
+  <!-- Content Column -->
+  <div class="col-md-8">
+    <h2>
+      <a href="{{ post.url }}" style="color:black;font-family: 'Mitr';" target="_blank" rel="noopener noreferrer">
+        {{ post.title }}
+      </a>
+    </h2>
+
+    <!-- Tag (company name) -->
+    <a style="font-family: 'Mitr';">Tag:</a>
+    <span class="badge badge-primary" style="font-family: 'Mitr'; background-color: #3d6cb9;">
+      {{ post.company }}
+    </span>
+
+    <!-- Description -->
+    <p style="margin-top:10px; text-align: justify; font-family: 'Sarabun', sans-serif;">
+      {{ post.description }}
+    </p>
+  </div>
+</div>
+{% endfor %}
+</div>
+</div>
     
 
-</div>
+
 </body>
 
 <div class="container">

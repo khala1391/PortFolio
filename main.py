@@ -1,34 +1,36 @@
 from flask import Flask, render_template
 from post import Post
-import requests
+import requests, os, json
 
+def load_news_from_file():
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    # news_path = os.path.join(base_dir, "news.json")
+    news_path = os.path.join(base_dir, "static/data/company_top3_news.json")
 
-news_data = requests.get("https://api.npoint.io/c790b4d5cab58020d391").json()
-news_objects = []
-for item in news_data:
-    news_object = Post(item['id'],item['title'],item['title'], item['body'])
-    news_objects.append(news_object)
+    with open(news_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    return Post.from_json(data)
 
 
 app = Flask(__name__)
+news_objects = load_news_from_file()
 
 @app.route('/')
 def index():
-    return render_template("index.html",all_posts=news_objects)
+    # Load from the static/data/sampled_news_across_companies.json
+    data_path = os.path.join(app.root_path, 'static/data/sampled_news_across_companies.json')
+    with open(data_path, encoding='utf-8') as f:
+        sampled_news = json.load(f)
+    return render_template('index.html', all_posts=news_objects, news=sampled_news)
 
 
 
 @app.route('/news')
 def show_all_news():
-    return render_template("news.html", all_posts=news_objects)
-
-
-
-@app.route("/news/<int:index>")
-def show_news(index):
-    requested_news = next((post for post in news_objects if post.id == index), None)
-    return render_template("post.html", post= requested_news)
-
+    global news_objects
+    news_objects = load_news_from_file()
+    return render_template('news.html', all_posts=news_objects)
 
 
 @app.route('/my_portfolio')

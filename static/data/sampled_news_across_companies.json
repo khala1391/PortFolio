@@ -1,0 +1,44 @@
+[
+  {
+    "source": {
+      "id": null,
+      "name": "TechSpot"
+    },
+    "author": "Daniel Sims",
+    "title": "Nvidia reaches historic 92% GPU market share, leaves AMD and Intel far behind",
+    "description": "According to Jon Peddie Research, total sales of dedicated desktop graphics cards reached 9.2 million units in the first quarter of 2025 \u2013 an increase of more than 8% both year-over-year and quarter-over-quarter. Although both Nvidia and AMD launched new GPU \u2026",
+    "url": "https://www.techspot.com/news/108225-nvidia-reaches-historic-92-gpu-market-share-leaves.html",
+    "urlToImage": "https://www.techspot.com/articles-info/2947/images/2025-01-29-image-4.jpg",
+    "publishedAt": "2025-06-07T12:17:00Z",
+    "content": "The big picture: In our review of the 8GB variant of Nvidia's RTX 5060 Ti, we suggested that the GeForce 50 lineup might go down as the company's worst ever. Yet despite scarcity at more reasonable p\u2026 [+3001 chars]",
+    "company": "NVIDIA"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "TechSpot"
+    },
+    "author": "Daniel Sims",
+    "title": "Nvidia reaches historic 92% GPU market share, leaves AMD and Intel far behind",
+    "description": "According to Jon Peddie Research, total sales of dedicated desktop graphics cards reached 9.2 million units in the first quarter of 2025 \u2013 an increase of more than 8% both year-over-year and quarter-over-quarter. Although both Nvidia and AMD launched new GPU \u2026",
+    "url": "https://www.techspot.com/news/108225-nvidia-reaches-historic-92-gpu-market-share-leaves.html",
+    "urlToImage": "https://www.techspot.com/articles-info/2947/images/2025-01-29-image-4.jpg",
+    "publishedAt": "2025-06-07T12:17:00Z",
+    "content": "The big picture: In our review of the 8GB variant of Nvidia's RTX 5060 Ti, we suggested that the GeForce 50 lineup might go down as the company's worst ever. Yet despite scarcity at more reasonable p\u2026 [+3001 chars]",
+    "company": "AMD"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "U.S. CISA adds Google Chromium V8\u00a0flaw to its Known Exploited Vulnerabilities catalog",
+    "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a Google Chromium V8 vulnerability to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA)\u00a0added Google Chromium V8 Out-of-Bounds Read a\u2026",
+    "url": "https://securityaffairs.com/178678/security/u-s-cisa-google-chromium-v8-flaw-known-exploited-vulnerabilities-catalog.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg",
+    "publishedAt": "2025-06-05T21:03:56Z",
+    "content": "U.S. CISA adds Google Chromium V8\u00a0flaw to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0New versions of Chaos RAT target Windows and Linux systems\r\n\u00a0|\u00a0Critical flaw in Cisco ISE impacts cloud deplo\u2026 [+170176 chars]",
+    "company": "Google"
+  }
+]
