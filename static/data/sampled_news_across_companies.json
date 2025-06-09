@@ -2,6 +2,20 @@
   {
     "source": {
       "id": null,
+      "name": "Thurrott.com"
+    },
+    "author": "Laurent Giret",
+    "title": "Microsoft Photos Adds New AI Features for Insiders on Copilot+ PCs",
+    "description": "Windows Insiders on Copilot+ PCs can test new AI-powered Relight and Search experiences in the Microsoft Photos app.\nThe post Microsoft Photos Adds New AI Features for Insiders on Copilot+ PCs appeared first on Thurrott.com.",
+    "url": "https://www.thurrott.com/a-i/321840/microsoft-photos-adds-new-ai-features-for-insiders-on-copilot-pcs",
+    "urlToImage": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2025/03/Microsoft-Photos-app.jpg",
+    "publishedAt": "2025-06-06T20:09:42Z",
+    "content": "Windows Insiders on Copilot+ PCs can test two new AI-powered features in the Microsoft Photos app today. The first one is called Relight, and it adds dynamic lighting controls to pictures.\r\nRelight w\u2026 [+1402 chars]",
+    "company": "Microsoft"
+  },
+  {
+    "source": {
+      "id": null,
       "name": "PCWorld"
     },
     "author": "Michael Crider",
@@ -15,30 +29,16 @@
   },
   {
     "source": {
-      "id": null,
-      "name": "Securityaffairs.com"
+      "id": "business-insider",
+      "name": "Business Insider"
     },
-    "author": "Pierluigi Paganini",
-    "title": "Critical flaw in Cisco ISE impacts cloud deployments on AWS, Microsoft Azure, and Oracle Cloud Infrastructure",
-    "description": "Cisco fixed a critical flaw in the Identity Services Engine (ISE) that could allow unauthenticated attackers to conduct malicious actions. A vulnerability tracked as CVE-2025-20286 (CVSS score 9.9) in cloud deployments of Cisco ISE on AWS, Microsoft Azure, an\u2026",
-    "url": "https://securityaffairs.com/178659/uncategorized/critical-flaw-in-cisco-ise-impacts-cloud-deployments-on-aws-microsoft-azure-and-oracle-cloud-infrastructure.html",
-    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2014/07/cisco-building.jpg",
-    "publishedAt": "2025-06-05T08:31:27Z",
-    "content": "Critical flaw in Cisco ISE impacts cloud deployments on AWS, Microsoft Azure, and Oracle Cloud Infrastructure\r\n\u00a0|\u00a0Ukraines military intelligence agency stole 4.4GB of highly classified internal data \u2026 [+170023 chars]",
-    "company": "Microsoft"
-  },
-  {
-    "source": {
-      "id": null,
-      "name": "Wccftech"
-    },
-    "author": "Hassan Mujtaba",
-    "title": "NVIDIA Dominates AIB GPU Market With 92% Share In Q1 2025, AMD Drops To 8% & Intel To 0%",
-    "description": "NVIDIA is starting 2025 strong with a 92% market share in the AIB GPU market, whereas the competition is down to single digits. NVIDIA Leads 2025 With Massive 92% AIB GPU Market Share, AMD at 8% & Intel at 0% The latest data comes from Jon Peddie Research, wh\u2026",
-    "url": "https://wccftech.com/nvidia-dominates-aib-gpu-market-share-in-q1-2025-amd-intel-drop/",
-    "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2025/03/Intel-AMD-NVIDIA-2025-New.jpg",
-    "publishedAt": "2025-06-05T18:30:03Z",
-    "content": "NVIDIA is starting 2025 strong with a 92% market share in the AIB GPU market, whereas the competition is down to single digits.\r\nThe latest data comes from Jon Peddie Research, where the latest Q1 20\u2026 [+3614 chars]",
+    "author": "ecosgrove@businessinsider.com (Emma Cosgrove)",
+    "title": "Nvidia's competitors are gaining traction in these key industries",
+    "description": "High-frequency trading and sovereign AI projects drive demand for non-Nvidia AI chips, as startups offer cost-and energy-efficient alternatives.",
+    "url": "https://www.businessinsider.com/nvidia-competitors-gain-traction-hft-ads-sovereign-ai-industries-2025-6",
+    "urlToImage": "https://i.insider.com/684311c5f748d8c055f33274?width=1200&format=jpeg",
+    "publishedAt": "2025-06-08T09:01:01Z",
+    "content": "Startups selling alternatives to Nvidia's famed graphics processing units are unlikely to truly challenge Nvidia for a long time. But they defiantly claim superior performance, speed, energy efficien\u2026 [+6120 chars]",
     "company": "NVIDIA"
   }
 ]

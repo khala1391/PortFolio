@@ -131,3 +131,57 @@ with open(output_path, "w") as f:
     json.dump(selected_news, f, indent=2)
 
 print(f"\nSaved {num_to_select} sampled articles to:\n{output_path}")
+
+
+def main():
+    all_articles = fetch_all_news()
+    all_news = group_articles_by_company(all_articles, COMPANIES)
+
+    for company, news in all_news.items():
+        print(f"\nTop 3 for {company}:")
+        for article in news:
+            print(f" - {article['title']}")
+
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    static_dir = os.path.join(base_dir, 'static/data')
+    output_file = os.path.join(static_dir, "company_top3_news.json")
+
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(all_news, f, indent=2, ensure_ascii=False)
+
+    print(f"Saved top 3 news articles per company to {output_file}")
+
+    # Select a few across all companies
+    input_path = os.path.join(static_dir, "company_top3_news.json")
+    output_path = os.path.join(static_dir, "sampled_news_across_companies.json")
+
+    with open(input_path, "r") as f:
+        company_news = json.load(f)
+
+    all_articles = []
+    for company, articles in company_news.items():
+        for article in articles:
+            article["company"] = company
+            all_articles.append(article)
+
+    if len(all_articles) == 0:
+        raise ValueError("No articles found across all companies.")
+
+    num_to_select = min(3, len(all_articles))
+    selected_news = random.sample(all_articles, num_to_select)
+
+    for i, article in enumerate(selected_news, 1):
+        print(f"\nNews {i}:")
+        print("Company:", article.get("company"))
+        print("Title:", article.get("title"))
+        print("Description:", article.get("description"))
+
+    with open(output_path, "w") as f:
+        json.dump(selected_news, f, indent=2)
+
+    print(f"\nSaved {num_to_select} sampled articles to:\n{output_path}")
+
+
+# Optional: allow direct script run
+if __name__ == "__main__":
+    main()
