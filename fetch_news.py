@@ -1,9 +1,9 @@
 import random
 import os
 import requests
+import json
 from datetime import datetime
 from collections import defaultdict
-import json
 
 NEWS_API_KEY = os.environ.get("NEWS_Hmail_API_KEY")
 COMPANIES = ["Google",
@@ -55,6 +55,9 @@ def group_articles_by_company(articles, companies):
         for company in companies:
             if company.lower() in title:
                 grouped[company].append(article)
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    static_dir = os.path.join(base_dir, 'static/data')
+    output_file = os.path.join(static_dir, "news.json")
     # Select top 3 per company
     return {company: grouped[company][:3] for company in companies}
 
@@ -84,10 +87,6 @@ print(f"Saved top 3 news articles per company to {output_file}")
 
 
 ############################ select news ##################################
-
-import os
-import json
-import random
 
 
 # Get current directory (compatible with Jupyter or script)

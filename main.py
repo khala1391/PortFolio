@@ -46,6 +46,11 @@ def my_article():
 def about_me():
     return render_template("about_me.html")
 
+@app.route("/run-fetch-news")
+def run_fetch_news():
+    import fetch_news
+    fetch_news.main()  # or whatever function triggers your logic
+    return "News fetched successfully", 200
 
 
 if __name__ == "__main__":
