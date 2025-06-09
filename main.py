@@ -49,7 +49,7 @@ def about_me():
 @app.route("/run-fetch-news")
 def run_fetch_news():
     import fetch_news
-    fetch_news.main()  # or whatever function triggers your logic
+    fetch_news.main()  
     return "News fetched successfully", 200
 
 
